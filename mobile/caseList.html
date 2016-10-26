@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="芳芳工艺品有限公司">
+<meta name="description" content="芳芳工艺品有限公司">
+<meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+<!--禁止缩放-->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<!--全屏显示-->
+<meta content="telephone=no" name="format-detection" />
+<!--告诉设备忽略将页面中的数字识别为电话号码-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>芳芳工艺品有限公司手机版案例列表</title>
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/list.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/tool.js"></script>
+<script type="text/javascript">
+//设置根字号
+function resizeB() {
+    var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+    var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+    if (screenWidth < 641) {
+        //把根字号大小给html
+        htmlB.style.fontSize = _fontSize + "px";
+    };
+}
+addDomLoaded(resizeB);
+window.onresize = function () {
+    resizeB();
+};
+</script>
+</head>
+<body>
+<!--顶部菜单部分-->
+<header class="head marginBot">
+    <a href="javascript:void(0);" class="back"></a>
+    <h2>成功案例</h2>
+    <a href="javascript:void(0);" class="menuBtn"></a>
+</header>
+<!--案例列表主体-->
+<section class="caseList marginBot">
+    <ul class="listMain borderBot">
+        <li>
+            <a href="caseCommon.html">
+                <img src="images/test/test1.jpg" />
+                <b class="borderRig borderLef">建设银行财富中心开</b>
+                <p class="borderRig borderLef borderBot">建行财富中心开业以邀请VIP客户品茶为主打活动</p>
+            </a>
+        </li>
+        <li>
+            <a href="caseCommon.html">
+                <img src="images/test/test1.jpg" />
+                <b class="borderRig borderLef">建设银行财富中心开</b>
+                <p class="borderRig borderLef borderBot">为主打活动</p>
+            </a>
+        </li>
+        <li>
+            <a href="caseCommon.html">
+                <img src="images/test/test1.jpg" />
+                <b class="borderRig borderLef">建设银行财富中心开</b>
+                <p class="borderRig borderLef borderBot">为主打活动</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/test/test1.jpg" />
+                <b class="borderRig borderLef">建设银行财富中心开</b>
+                <p class="borderRig borderLef borderBot">建行财富中心开业以邀请VIP客户品茶为主打活动</p>
+            </a>
+        </li>
+    </ul>
+    <a href="javascript:void(0);" class="clickMore">点击加载更多</a>
+</section>
+<!--底部内容-->
+<footer class="foot">
+    <p>通讯地址：郑州市金水区农业路建业二号城邦10号楼2单元1001室</p>
+    <p>24小时服务热线：18637157163</p>
+    <p>固定电话：0371-63729765　联系人：杨经理</p>
+    <p>豫ICP备11015397号-1</p>
+</footer>
+<!--弹出菜单层-->
+<div class="popMenu" style="display:none;">
+    <ul class="menuMain">
+        <li class="on"><a href="index.html">首页</a></li>
+        <li><a href="proList.html">精选礼品</a></li>
+        <li><a href="process.html">私人订制</a></li>
+        <li><a href="cooperation.html">合作伙伴</a></li>
+        <li><a href="aboutUs.html">关于芳芳</a></li>
+        <li><a href="newsList.html">送礼常识</a></li>
+        <li><a href="contactUs.html">联系方式</a></li>
+    </ul>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "fangfang",
+  "version": "1.0.0",
+  "description": "芳芳工艺品有限公司",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "王勇",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

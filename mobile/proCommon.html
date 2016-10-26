@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="芳芳工艺品有限公司">
+<meta name="description" content="芳芳工艺品有限公司">
+<meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+<!--禁止缩放-->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<!--全屏显示-->
+<meta content="telephone=no" name="format-detection" />
+<!--告诉设备忽略将页面中的数字识别为电话号码-->
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>芳芳工艺品有限公司手机版产品详情</title>
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/list.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/tool.js"></script>
+<script type="text/javascript">
+//设置根字号
+function resizeB() {
+    var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+    var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+    if (screenWidth < 641) {
+        //把根字号大小给html
+        htmlB.style.fontSize = _fontSize + "px";
+    };
+}
+addDomLoaded(resizeB);
+window.onresize = function () {
+    resizeB();
+};
+</script>
+</head>
+<body>
+<!--顶部菜单部分-->
+<header class="head">
+    <a href="javascript:void(0);" class="back"></a>
+    <h2>产品分类</h2>
+    <a href="javascript:void(0);" class="menuBtn"></a>
+</header>
+<!--案例列表主体-->
+<section class="caseList">
+    <div class="proCommonH bgF marginBot borderBot">
+        <img class="proHPic" src="images/test/test4.jpg" />
+        <b class="proName">SHIMIZU/清水保温杯</b>
+        <em class="keyWord">女士时尚创意小杯子可爱学生儿童迷你便携水杯</em>
+    </div>
+    <div class="proCommonM marginBot borderBot">
+        <b class="proCmH">产品详情</b>
+        <span class="xq"><b>品　　牌</b><em>清水 SM-6821-025</em></span>
+        <span class="xq"><b>容　　量</b><em>201mL(含)-300mL(含)</em></span>
+        <span class="xq"><b>包装体积</b><em>7cm×7cm×12cm</em></span>
+        <span class="xq"><b>杯子样式</b><em>直身杯</em></span>
+        <span class="xq"><b>材　　质</b><em>304不锈钢</em></span>
+        <span class="xq"><b>产品亮点</b><em>耐固坚用，高度智能化创新功能设计，降低成本，提高工作效率</em></span>
+        <img src="images/test/test5.jpg" />
+        <img src="images/test/test5.jpg" />
+        <img src="images/test/test5.jpg" />
+        <img src="images/test/test5.jpg" />
+    </div>
+</section>
+<!--底部内容-->
+<footer class="foot">
+    <p>通讯地址：郑州市金水区农业路建业二号城邦10号楼2单元1001室</p>
+    <p>24小时服务热线：18637157163</p>
+    <p>固定电话：0371-63729765　联系人：杨经理</p>
+    <p>豫ICP备11015397号-1</p>
+</footer>
+<!--弹出菜单层-->
+<div class="popMenu" style="display:none;">
+    <ul class="menuMain">
+        <li class="on"><a href="index.html">首页</a></li>
+        <li><a href="proList.html">精选礼品</a></li>
+        <li><a href="process.html">私人订制</a></li>
+        <li><a href="cooperation.html">合作伙伴</a></li>
+        <li><a href="aboutUs.html">关于芳芳</a></li>
+        <li><a href="newsList.html">送礼常识</a></li>
+        <li><a href="contactUs.html">联系方式</a></li>
+    </ul>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</body>
+</html>

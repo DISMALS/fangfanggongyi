@@ -1,0 +1,219 @@
+﻿@charset "UTF-8";
+/*
+    制作时间：2016-05-06
+    作者：王勇
+    用途：芳芳工艺品有限公司手机版网站首页样式
+*/
+/*banner部分*/
+.banner{
+    width:100%;
+    height:auto;
+}
+.banner img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*快捷导航*/
+.nav{
+    width:100%;
+    height:auto;
+    text-align:center;
+    background:#fff;
+}
+.nav a{
+    width:23.5%;
+    min-height:4rem;
+    display:inline-block;
+    color:#333;
+    font-size:0.7rem;
+}
+.nav a i{
+    width:60%;
+    height:2.2rem;
+    display:block;
+    margin:0.5rem auto 0.1rem;
+    border-radius:50%;
+    max-width:75px;
+    max-height:75px;
+}
+.nav a b{
+    display:block;
+    line-height:1.2rem;
+}
+.iconOne{
+    background:#ff3399 url(../images/pro.png) no-repeat center;
+    background-size:60% 60%;
+}
+.iconTwo{
+    background:#188ef0 url(../images/dz.png) no-repeat center;
+    background-size:60% 60%;
+}
+.iconThree{
+    background:#8f41e2 url(../images/jx.png) no-repeat center;
+    background-size:60% 60%;
+}
+.iconFour{
+    background:#ff4d49 url(../images/history.png) no-repeat 60% center;
+    background-size:60% 60%;
+}
+/*广告位部分*/
+.ggWei{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    max-height:250px;
+}
+.ggWeiL{
+    width:48.8%;
+    height:auto;
+    float:left;
+    max-width:313px;
+    max-height:250px;
+}
+.ggWeiL img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.ggWeiR{
+    width:50.2%;
+    height:auto;
+    float:left;
+    max-width:325px;
+    max-height:250px;
+}
+.ggWeiR img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*楼层内容部分*/
+.floor{
+    width:100%;
+    height:auto;
+    background:#fff;
+    overflow:hidden;
+}
+.floorTit{
+    padding:0rem 2%;
+    color:#000;
+    font-size:0.8rem;
+    line-height:2rem;
+}
+.floorTit a{
+    float:right;
+    color:#999;
+    font-size:0.7rem;
+    font-weight:normal;
+}
+.floorMain{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin-left:-1px;
+}
+.floorMain li{
+    width:32.919%;
+    height:5.1rem;
+    font-size:0.6rem;
+    border-top:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+    float:left;
+}
+.floorMain a{
+    color:#000;
+    display:block;
+}
+.floorMain img{
+    width:100%;
+    height:auto;
+    max-width:212px;
+    max-height:135px;
+    display:block;
+}
+.floorMain b{
+    display:block;
+    line-height:1.2rem;
+    text-align:center;
+}
+.news{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+.titTwo{
+    text-align:center;
+    line-height:2rem;
+    font-size:0.8rem;
+    margin-bottom:0.5rem;
+}
+.titTwoBgO{
+    border-bottom:2px solid #ff4233;
+    background:url(../images/jt.png) no-repeat center bottom;
+    background-size:3% 8%;
+}
+.newsMain{
+    width:96%;
+    height:auto;
+    padding:0rem 2%;
+}
+.newsMain li{
+    height:2rem;
+    line-height:2rem;
+    font-size:0.6rem;
+    border-bottom:1px solid #d9d9d9;
+    background:url(../images/to.png) no-repeat right center;
+    background-size:2% 30%;
+}
+.newsMain li a{
+    display:block;
+    height:2rem;
+    padding-right:25%;
+    color:#333;
+    overflow:hidden;
+}
+.newsMain li:last-child{
+    border-bottom:none;
+}
+.titTwoBgT{
+    border-bottom:2px solid #188ef0;
+    background:url(../images/lc.png) no-repeat center bottom;
+    background-size:3% 8%;
+}
+/*定制流程部分*/
+.liuc{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+/*合作伙伴部分*/
+.process{
+    width:96%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 2%;
+}
+.bd{
+    width:100%;
+    height:1.2rem;
+    overflow:hidden;
+}
+.bd li{
+   width:100%;
+   height:1.2rem;
+   overflow:hidden; 
+}
+.bd li a{
+    display:block;
+    float:left;
+    width:23%;
+    margin:0rem 1%;
+}
+.bd img{
+    width:100%;
+    height:auto;
+    max-width:133px;
+    max-height:48px;
+    display:block;
+}

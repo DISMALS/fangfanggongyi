@@ -1,0 +1,251 @@
+﻿@charset 'utf-8';
+
+html,body,button,div,form,input,img,p,h1,h2,h3,h4,h5,h6,textarea,select,ul,li{
+	margin:0;
+	padding:0;
+}
+header,footer,section,article,addressmenu{
+	display:block;
+	}
+body{
+	font-family:"microsoft yahei",arial,sans-serif;
+    width:100%;
+	height:auto;
+	min-width:320px;
+	max-width:640px;
+	margin:0 auto;
+    background:#eeeeee;
+}
+html{
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	}
+ul,li,ol,dl,dd,dt{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+a.link{
+	text-decoration:none;
+	outline:none;
+}
+a.visited{
+	text-decoration:none;
+	outline:none;
+}
+a.hover{
+	text-decoration:none;
+	outline:none;
+}
+a.active{
+	text-decoration:none;
+	outline:none;
+}
+html,body,img{
+	border:0;
+	}
+i,em{
+	font-style:normal;
+	}
+img{
+	-ms-interpolation-mode:bicubic;
+	}
+q:before,q:after{
+	content:none;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+a,button{
+	cursor:pointer;
+	}
+input{
+	outline:none;
+	background:none;
+	border:none;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+/*公用的样式*/
+.borderBot{
+    border-bottom:1px solid #d9d9d9;
+}
+.borderRig{
+    border-right:1px solid #d9d9d9;
+}
+.marginBot{
+    margin-bottom:0.7rem;
+}
+.borderTop{
+    border-top:1px solid #d9d9d9;
+}
+.borderLef{
+    border-left:1px solid #d9d9d9;
+}
+.borders{
+    border-left:2px solid #d9d9d9;
+    border-right:2px solid #d9d9d9;
+}
+.bgF{
+    background:#fff;
+}
+.paddTop{
+    padding-top:0.6rem;
+}
+/*顶部菜单部分*/
+.head{
+    width:100%;
+    height:1.75rem;
+    line-height:1.75rem;
+    text-align:center;
+    background:#ff4233;
+    position:relative;
+}
+.head h2{
+    font-size:1rem;
+    color:#fff;
+    font-weight:normal;
+}
+.back{
+    float:left;
+    display:inline-block;
+    width:4%;
+    height:60%;
+    background:url(../images/other/back.png) no-repeat center;
+    background-size:contain;
+    position:absolute;
+    top:20%;
+    left:2%;
+}
+.menuBtn{
+    display:block;
+    width:10%;
+    height:80%;
+    position:absolute;
+    top:10%;
+    right:2%;
+    z-index:2;
+    background:url(../images/menu.png) no-repeat center;
+    background-size:contain;
+}
+/*底部部分*/
+.foot{
+    width:96%;
+    height:auto;
+    background:#1c1b19;
+    padding:0.5rem 2%;
+    color:#fff;
+    font-size:0.5rem;
+    text-align:center;
+}
+.foot p{
+    line-height:1rem;
+}
+/*弹窗菜单*/
+.popMenu{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:66;
+    background:rgba(0,0,0,0.85);
+    overflow:hidden; 
+}
+.menuMain{
+    width:60%;
+    height:100%;
+    background:#eee;
+    position:relative;
+    top:0;
+    left:100%;
+}
+.menuMain li{
+    width:100%;
+    height:1.75rem;
+    line-height:1.75rem;
+    padding-left:20%;
+    border-bottom:2px solid #d9d9d9;
+    background:url(../images/nor.png) no-repeat 5% center;
+    background-size:5% 34%;
+}
+.menuMain li.on{
+    background:#ff4233 url(../images/on.png) no-repeat 5% center;
+    background-size:5% 34%;
+    border-bottom:2px solid #ff4233;
+}
+.menuMain li a{
+    display:block;
+    color:#666;
+    font-size:0.6rem;
+    font-weight:bold;
+}
+.menuMain li.on a{
+    color:#fff;
+}
+/*定制流程样式*/
+.liucMain{
+    width:96%;
+    height:auto;
+    padding:0rem 2%;
+}
+.liucMain li{
+    padding:0.5rem 0rem;
+    border-bottom:1px dashed #d9d9d9;
+    overflow:hidden;
+}
+.liucMain li:last-child{
+    border-bottom:none;
+}
+.liucMain li span{
+    display:block;
+    width:20%;
+    height:3rem;
+    border:1px solid #dedede;
+    border-radius:50%;
+}
+.one{
+    float:left;
+    margin-right:5%;
+    background:#fafafa url(../images/lc1.png) no-repeat center;
+    background-size:60% 60%;
+}
+.two{
+    float:right;
+    margin-left:5%;
+    background:#fafafa url(../images/lc2.png) no-repeat center;
+    background-size:60% 60%;
+}
+.three{
+    float:left;
+    margin-right:5%;
+    background:#fafafa url(../images/lc3.png) no-repeat center;
+    background-size:50% 60%;
+}
+.four{
+    float:right;
+    margin-left:5%;
+    background:#fafafa url(../images/lc4.png) no-repeat center;
+    background-size:60% 60%;
+}
+.five{
+    float:left;
+    margin-right:5%;
+    background:#fafafa url(../images/lc5.png) no-repeat center;
+    background-size:60% 60%;
+}
+.liucMain li h4{
+    font-size:0.6rem;
+    color:#333;
+    line-height:1rem;
+}
+.liucMain li p{
+    font-size:0.6rem;
+    color:#999999;
+    line-height:0.8rem;
+}

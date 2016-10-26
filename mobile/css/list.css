@@ -1,0 +1,469 @@
+﻿@charset "UTF-8";
+/*
+    制作时间：2016-05-07
+    作者：王勇
+    用途：芳芳工艺品有限公司手机版网站列表及详情页样式
+*/
+/*案例列表样式*/
+.caseList{
+    width:100%;
+    height:auto;
+}
+.listMain{
+    background:#fff;
+    overflow:hidden;
+}
+.listMain li{
+    width:46%;
+    height:auto;
+    margin:0.5rem 2%;
+    float:left;
+}
+.listMain li a{
+    display:block;
+}
+.listMain li img{
+    width:100%;
+    height:auto;
+    max-width:280px;
+    max-height:290px;
+    display:block;
+}
+.listMain li b{
+    display:block;
+    height:1.2rem;
+    line-height:1.2rem;
+    overflow:hidden;
+    font-size:0.7rem;
+    color:#333;
+    text-align:center;
+    padding:0rem 1%;
+}
+.listMain li p{
+    height:2rem;
+    line-height:1rem;
+    overflow:hidden;
+    font-size:0.6rem;
+    color:#666;
+    padding:0rem 1%;
+}
+.clickMore{
+    display:block;
+    height:2rem;
+    line-height:2rem;
+    font-size:0.8rem;
+    text-align:center;
+    color:#666;
+}
+/*详情部分*/
+.commonTit{
+    line-height:1.4rem;
+    text-align:center;
+    font-size:0.75rem;
+    color:#000;
+    font-weight:normal;
+    margin:0rem 0rem 0.2rem;
+}
+.time{
+    display:block;
+    color:#999;
+    font-size:0.6rem;
+    line-height:1rem;
+    text-align:center;
+    font-weight:normal;
+    margin-bottom:1rem;
+}
+.commonMain{
+    width:96%;
+    height:auto;
+    padding:0rem 2% 0.8rem;
+}
+.commonMain img{
+    width:100%;
+    height:auto;
+}
+.commonMain p{
+    font-size:0.6rem;
+    color:#333;
+    line-height:1rem;
+}
+/*产品列表*/
+.nav{
+    width:100%;
+    min-height:1.75rem;
+    line-height:1.75rem;
+    font-size:0.6rem;
+    position:relative;
+}
+.navBtn{
+    display:block;
+    height:1.75rem;
+    padding:0rem 2%;
+    color:#000;
+    background:#f5f5f5 url(../images/other/xiala.png) no-repeat 98% center;
+    background-size:5% 24%;
+    position:relative;
+    z-index:4;
+}
+.navMain{
+    position:absolute;
+    top:1.75rem;
+    left:0rem;
+    width:100%;
+    height:auto;
+    z-index:3;
+    background:#fafafa;
+    box-shadow:0px 0px 6px #d9d9d9;
+}
+.navMain a{
+    display:block;
+    height:1.75rem;
+    color:#666666;
+    padding:0rem 10%;
+    border-bottom:1px solid #d9d9d9;
+}
+.navMain a:last-child{
+    border-bottom:none;
+}
+.navMain a.focus{
+    background:#969696;
+    color:#fff;
+}
+.proList{
+    width:98%;
+    height:auto;
+    background:#fff;
+    padding:0rem 1%;
+    overflow:hidden;
+}
+.proList li{
+    width:48%;
+    height:auto;
+    float:left;
+    margin:0.5rem 1%;
+}
+.proList li a{
+    display:block;
+    text-align:center;
+}
+.proList li a img{
+    display:block;
+    width:100%;
+    height:auto;
+    border:1px solid #e9e9e9;
+    max-width:288px;
+    max-height:288px;
+    margin-bottom:0.2rem;
+}
+.proList li a b{
+    display:block;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.65rem;
+    color:#333;
+}
+.proList li a p{
+    color:#666;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.6rem;
+}
+/*产品详情*/
+.proCommonH{
+    width:100%;
+    height:auto;
+}
+.proHPic{
+    width:100%;
+    height:auto;
+    display:block;
+    margin-bottom:0.5rem;
+}
+.proName{
+    display:block;
+    height:1rem;
+    font-size:0.7rem;
+    padding:0rem 2%;
+}
+.keyWord{
+    padding:0rem 2%;
+    font-size:0.6rem;
+    color:#666;
+    height:0.8rem;
+    line-height:0.8rem;
+    overflow:hidden;
+    display:block;
+    margin-bottom:0.5rem;
+}
+.proCommonM{
+    width:96%;
+    height:auto;
+    background:#fff;
+    padding:0.5rem 2%;
+    
+}
+.proCmH{
+    display:block;
+    height:1.6rem;
+    line-height:1.6rem;
+    text-align:center;
+    color:#000;
+    font-size:0.6rem;
+}
+.xq{
+    display:block;
+    font-size:0.6rem;
+    line-height:1.2rem;
+    overflow:hidden;
+}
+.xq b{
+    display:inline-block;
+    width:17%;
+    color:#000;
+    font-weight:normal;
+    margin-right:3%;
+    text-align:right;
+    float:left;
+}
+.xq em{
+    display:inline-block;
+    float:left;
+    width:78%;
+    color:#999;
+    font-weight:normal;
+}
+.proCommonM img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/*新闻列表部分*/
+.newList{
+    width:100%;
+    height:auto;
+    padding-bottom:0.5rem;
+}
+.newList a{
+    display:block;
+    border-bottom:1px solid #d9d9d9;
+    padding:0.5rem 2%;
+    overflow:hidden;
+    position:relative;
+}
+.newList a img{
+    width:35%;
+    height:auto;
+    max-width:180px;
+    max-height:120px;
+    float:left;
+    margin-right:2%;
+}
+.newList a b{
+    display:block;
+    max-height:1.8rem;
+    line-height:0.9rem;
+    font-size:0.65rem;
+    color:#333;
+    overflow:hidden;
+}
+.newsTime{
+    display:block;
+    color:#999;
+    font-size:0.6rem;
+    line-height:0.6rem;
+    font-weight:normal;
+    position:absolute;
+    left:37%;
+    bottom:0.5rem;
+}
+/*新闻详情*/
+.newsComH{
+    line-height:0.9rem;
+    font-size:0.65rem;
+    color:#333;
+    font-weight:bold;
+    padding:0rem 2%;
+}
+.newsTimes{
+    display:block;
+    color:#999;
+    font-size:0.6rem;
+    line-height:1.2rem;
+    font-weight:normal;
+    padding:0rem 2%;
+}
+.proCommonM p{
+    font-size:0.6rem;
+    color:#333;
+    line-height:0.9rem;
+    padding:0.3rem 2%;
+}
+/*私人订制*/
+.tabMenu{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+    overflow:hidden;
+}
+.tabMenu li{
+    width:32.5%;
+    height:1.25rem;
+    line-height:1.25rem;
+    text-align:center;
+    font-size:0.55rem;
+    float:left;
+    border:1px solid #ff4233;
+}
+.tabMenu li:first-child{
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+.tabMenu li:last-child{
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+}
+.tabMenu li.on{
+    background:#ff4233;
+}
+.tabMenu li a{
+    display:block;
+    color:#ff4233;
+}
+.tabMenu li.on a{
+    color:#fff;
+}
+.tabMain{
+    width:100%;
+    height:auto;
+}
+.tabMains{
+    width:100%;
+    height:auto;
+}
+.serviceMain{
+    width:100%;
+    height:auto;
+    padding-bottom:0.5rem;
+}
+.aboutTit{
+    display:block;
+    padding:0rem 2%;
+    color:#333;
+    font-size:0.7rem;
+    line-height:1.4rem;
+    font-weight:bold;
+    border-bottom:2px solid #d9d9d9;
+    margin-bottom:0.5rem;
+}
+.serviceMain p{
+    color:#333;
+    font-size:0.6rem;
+    line-height:0.9rem;
+    padding:0rem 2%;
+}
+.history{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+}
+.history img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.history p{
+    font-size:0.6rem;
+    color:#333;
+    line-height:0.9rem;
+}
+.honor{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.honor li{
+    width:47%;
+    height:auto;
+    float:left;
+    margin:0.3rem 1.5%;
+}
+.honor li img{
+    width:100%;
+    height:auto;
+    border:1px solid #d9d9d9;
+}
+/*合作伙伴*/
+.cooperation{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    padding-bottom:0.3rem;
+}
+.cooperation li{
+    width:31%;
+    height:auto;
+    float:left;
+    margin:0.3rem 1.1%;
+}
+.cooperation li a{
+    display:block;
+    border:1px solid #dbdbdb;
+}
+.cooperation li a img{
+    width:100%;
+    height:auto;
+}
+/*联系我们*/
+.contactUs{
+    width:100%;
+    height:auto;
+}
+.contactUs b{
+    display:block;
+    color:#333;
+    min-height:0.75rem;
+    line-height:0.75rem;
+    padding:0rem 2%;
+    border-bottom:1px solid #eeeeee;
+    font-size:0.6rem;
+    font-weight:normal;
+    padding:0.5rem 25% 0.5rem 2%;
+}
+.contactUs b.contactUsT{
+    font-size:0.8rem;
+    color:#333;
+    font-weight:bold;
+}
+.contactUsTT{
+    background:url(../images/../images/other/icon1.png) no-repeat 98% center;
+    background-size:5% 50%;
+}
+.contactUsTH{
+    background:url(../images/../images/other/icon2.png) no-repeat 98% center;
+    background-size:6% 50%;
+}
+.contactUsF{
+    background:url(../images/../images/other/icon3.png) no-repeat 98% center;
+    background-size:6% 60%;
+}
+.contactUsFI{
+    background:url(../images/../images/other/icon4.png) no-repeat 98% center;
+    background-size:7% 50%;
+}
+.contactUsS{
+    background:url(../images/../images/other/icon5.png) no-repeat 98% center;
+    background-size:7% 56%;
+}
+.contactUsSE{
+    background:url(../images/../images/other/icon6.png) no-repeat 98% 18%;
+    background-size:6% 43%;
+}
+.map{
+    width:96%;
+    height:auto;
+    margin:0.5rem auto;
+    border:1px solid #cccccc;
+}
+.map img{
+    width:100%;
+}

@@ -1,0 +1,246 @@
+﻿@charset 'utf-8';
+
+html,body,button,ul,li,h1,h2,h3,h4,h5,h6,td,table,textarea,th,select{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"microsoft yahei",arial,sans-serif;
+	
+}
+ul,li,ol,dl,dd,dt{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+a.link{
+	text-decoration:none;
+	outline:none;
+}
+a.visited{
+	text-decoration:none;
+	outline:none;
+}
+a.hover{
+	text-decoration:none;
+	outline:none;
+}
+a.active{
+	text-decoration:none;
+	outline:none;
+}
+html,body,img{
+	border:0;
+	}
+q:before,q:after{
+	content:none;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+a,button{
+	cursor:pointer;
+	}
+input{
+	background:none;
+	border:none;
+	}
+h1,h2,h3,h4,h5,h6,em,strong,i,b{
+	font-weight:normal;
+	}
+textarea{
+	overflow:auto;
+	resize:none;
+	}
+
+/*头部部分*/
+.header{
+    width:100%;
+    height:130px;
+    background:#fff;
+}
+.headerMain{
+    width:1200px;
+    margin:0px auto;
+}
+.logo{
+    font-size:0px;
+    background:url(../images/logo.png) no-repeat top center;
+    width:151px;
+    height:167px;
+    position:absolute;
+    z-index:3;
+    float:left;
+}
+.menu{
+    width:696px;
+    height:48px;
+    text-align:center;
+    color:#E2E6EA;
+    font-size:14px;
+    float:left;
+    margin:0px 0px 0px 170px;
+}
+.marT1{
+    margin-top:50px;
+}
+.menu li{
+    width:116px;
+    height:auto;
+    float:left;
+    position:relative;
+}
+.menu a{
+    width:116px;
+    height:44px;
+    overflow:hidden;
+    position:relative;
+    color:#333;
+    display:inline-block;
+}
+.menu a.fl{
+    background:url(../images/fl.jpg) no-repeat right 5px;
+}
+.menu a.hoverBg{
+    color:#fff;
+}
+i.bjs{
+    width:116px;
+    height:28px;
+    display:block;
+    background:url(../images/menuBg.png) no-repeat center;
+    position:absolute;
+    top:-28px;
+    z-index:1;
+}
+.menu a b{
+    display:block;
+    width:116px;
+    height:28px;
+    line-height:28px;
+    font-weight:bold;
+    position:relative;
+    top:0px;
+    z-index:2;
+}
+.menu a.bj em{
+    display:block;
+    width:116px;
+    height:16px;
+    font-size:12px;
+    color:#BCBCBC;
+    line-height:16px;
+    font-style:normal;
+    text-transform:uppercase;
+    position:relative;
+    top:0px;
+}
+.contact{
+    width:260px;
+    float:right;
+    background:url(../images/phon.png) no-repeat left center;
+    padding-left:45px;
+}
+.hotLine{
+    color:#333;
+    font-size:14px;
+    display:block;
+    font-weight:bold;
+}
+.gg{
+    color:#999;
+    font-size:12px;
+    font-style:normal;
+    font-size:12px;
+}
+ul.xiala{
+    width:104px;
+    height:auto;
+    position:relative;
+    z-index:5;
+    border:1px solid #E8E8E8;
+    border-radius:8px;
+    background:#fff;
+    overflow:hidden;
+    padding:0px 5px;
+}
+ul.xiala li{
+    width:104px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+}
+ul.xiala li a{
+    display:block;
+    width:104px;
+    height:40px;
+    color:#767676;
+    text-align:center;
+}
+ul.xiala li a:hover{
+    color:#575757;
+}
+.xialaBor{
+    border-top:1px solid #E8E8E8;
+}
+
+/*banner部分*/
+.banner{
+    width:100%;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+}
+.banner a img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+/*底部部分*/
+.footer{
+     width:100%;
+     height:110px;
+     background:#1C1B1A;
+ }
+.footMain{
+    width:1200px;
+    height:95px;
+    margin:0px auto;
+    background:url(../images/footLogo.png) no-repeat 200px center;
+    color:rgba(255,255,255,0.5);
+    font-size:12px;
+    line-height:26px;
+    text-align:center;
+    padding-top:15px;
+}
+.footMain p{
+    color:#666\9;
+}
+/*分页样式*/
+.pageList{
+    width:575px;
+    height:37px;
+    margin:40px auto 50px auto;
+    text-align:center;
+}
+.pageList a{
+    width:70px;
+    height:35px;
+    display:inline-block;
+    margin:0px 3px;
+    border:1px solid #EDEDED;
+    line-height:35px;
+    color:#333;
+    font-size:14px;
+    border-radius:1px;
+}
+.pageList a.click{
+    background:#188EEE;
+    border:1px solid #188EEE;
+    color:#fff;
+    border-radius:1px;
+}
